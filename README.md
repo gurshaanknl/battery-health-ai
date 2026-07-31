@@ -6,6 +6,7 @@ A machine learning classifier that predicts whether a used EV battery should be 
 Not every "dead" EV battery needs full recycling — many retain 70%+ capacity and can be repurposed. Manually testing every battery is slow and expensive. This project automates that first triage step.
 
 ## What It Does
+![Battery Health Checker App](app_screenshot.png)
 - Trained a Random Forest classifier on 748 real battery cycle records (8 batteries) from NASA's Prognostics Center of Excellence dataset
 - Predicts **good (reuse)** vs **worn_out (recycle)** from voltage, current, and temperature readings
 - **96% recall on worn-out detection** — catches 25 out of 26 truly worn-out batteries in testing
